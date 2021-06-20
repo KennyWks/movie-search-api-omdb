@@ -1,4 +1,4 @@
-const apiKey = '';
+const apiKey = ''; // -> your api omdb
 function searchMovie() {
         $('#movie-list').html('');
         $.ajax({
